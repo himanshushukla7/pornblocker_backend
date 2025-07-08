@@ -27,7 +27,11 @@ SECRET_KEY = 'django-insecure-9xd&e+n4p7362yip5$qe5gps2i$o2*pl(x=%8e(nxg!^0_t1a2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']  # Later restrict to Railway domain for security
+ALLOWED_HOSTS = [
+    'pornblockerbackend-production.up.railway.app',
+    'localhost',
+    '127.0.0.1'
+]
 
 
 # Application definition
