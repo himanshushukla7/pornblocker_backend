@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-9xd&e+n4p7362yip5$qe5gps2i$o2*pl(x=%8e(nxg!^0_t1a2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'pornblockerbackend-production.up.railway.app',
