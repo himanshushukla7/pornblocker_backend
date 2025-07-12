@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-9xd&e+n4p7362yip5$qe5gps2i$o2*pl(x=%8e(nxg!^0_t1a2
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'pornblockerbackend-production.up.railway.app',
+    #'pornblockerbackend-production.up.railway.app',
+    'pornblocker-backend.onrender.com',
     'localhost',
     '127.0.0.1'
 ]
